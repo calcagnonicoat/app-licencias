@@ -1,0 +1,12 @@
+{
+  "UsuariosConfiguraciones": [
+    {
+      "Usuario": "nicolascalcagno@atbim.es",
+      "ConfiguracionesAsignadas": [ "Configuracion 1", "Configuracion 3" ]
+    },
+    {
+      "Usuario": "calcagno.nico@gmail.com",
+      "ConfiguracionesAsignadas": [ "Configuracion 2" ]
+    }
+  ]
+}
