@@ -1,0 +1,433 @@
+{
+  "ConfiguracionesGlobales": [
+    {
+      "NombreConfiguracion": "Configuracion 1",
+      "NombresDeColumnas": [
+        "IfcClass1",
+        "Categoría1",
+        "Tipo1",
+        "Nivel Base1"
+      ],
+      "Configuraciones": [
+        {
+          "NombreConfiguracion": "MOLINS",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "IFC Type" ],
+              "Propiedades": [ "IfcClass" ]
+            },
+            {
+              "CategoriasPrioridad": [ "PIEZA" ],
+              "Propiedades": [ "MARCA_PIEZA" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Pset_ColumnCommon", "Pset_BeamCommon", "Pset_SlabCommon" ],
+              "Propiedades": [ "Reference" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Tekla Common" ],
+              "Propiedades": [ "Bottom Elevation", "Bottom elevation" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "ED Nurse Station"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "Glazed SSG"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "Glazed Spandrel - SSG"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "UTEPS",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Structural Material" ],
+              "Propiedades": [ "Material" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Identity Data" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Identity Data" ],
+              "Propiedades": [ "Family" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Base Level" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Structural Material",
+              "Propiedad": "Material",
+              "Valor": "Void"
+            },
+            {
+              "Categoria": "Identity Data",
+              "Propiedad": "Family",
+              "Valor": "Annotation"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "Arquitectura",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Nombre" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Materials and Finishes" ],
+              "Propiedades": [ "Material" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Nivel" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Categoría",
+              "Valor": "Furniture"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Categoría",
+              "Valor": "Plumbing Fixtures"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "Clash Detection",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Nombre" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "MEP System" ],
+              "Propiedades": [ "System Type" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Base Level" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "MEP System",
+              "Propiedad": "System Type",
+              "Valor": "None"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NombreConfiguracion": "Configuracion 2",
+      "NombresDeColumnas": [
+        "IfcClass2",
+        "Categoría2",
+        "Tipo2",
+        "Nivel Base2"
+      ],
+      "Configuraciones": [
+        {
+          "NombreConfiguracion": "MOLINS",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "IFC Type" ],
+              "Propiedades": [ "IfcClass" ]
+            },
+            {
+              "CategoriasPrioridad": [ "PIEZA" ],
+              "Propiedades": [ "MARCA_PIEZA" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Pset_ColumnCommon", "Pset_BeamCommon", "Pset_SlabCommon" ],
+              "Propiedades": [ "Reference" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Tekla Common" ],
+              "Propiedades": [ "Bottom Elevation", "Bottom elevation" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "ED Nurse Station"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "Glazed SSG"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "Glazed Spandrel - SSG"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "UTEPS",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Structural Material" ],
+              "Propiedades": [ "Material" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Identity Data" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Identity Data" ],
+              "Propiedades": [ "Family" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Base Level" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Structural Material",
+              "Propiedad": "Material",
+              "Valor": "Void"
+            },
+            {
+              "Categoria": "Identity Data",
+              "Propiedad": "Family",
+              "Valor": "Annotation"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "Arquitectura",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Nombre" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Materials and Finishes" ],
+              "Propiedades": [ "Material" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Nivel" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Categoría",
+              "Valor": "Furniture"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Categoría",
+              "Valor": "Plumbing Fixtures"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "Clash Detection",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Nombre" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "MEP System" ],
+              "Propiedades": [ "System Type" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Base Level" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "MEP System",
+              "Propiedad": "System Type",
+              "Valor": "None"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "NombreConfiguracion": "Configuracion 3",
+      "NombresDeColumnas": [
+        "IfcClass3",
+        "Categoría3",
+        "Tipo3",
+        "Nivel Base3"
+      ],
+      "Configuraciones": [
+        {
+          "NombreConfiguracion": "MOLINS",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "IFC Type" ],
+              "Propiedades": [ "IfcClass" ]
+            },
+            {
+              "CategoriasPrioridad": [ "PIEZA" ],
+              "Propiedades": [ "MARCA_PIEZA" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Pset_ColumnCommon", "Pset_BeamCommon", "Pset_SlabCommon" ],
+              "Propiedades": [ "Reference" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Tekla Common" ],
+              "Propiedades": [ "Bottom Elevation", "Bottom elevation" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "ED Nurse Station"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "Glazed SSG"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Nombre",
+              "Valor": "Glazed Spandrel - SSG"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "UTEPS",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Structural Material" ],
+              "Propiedades": [ "Material" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Identity Data" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Identity Data" ],
+              "Propiedades": [ "Family" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Base Level" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Structural Material",
+              "Propiedad": "Material",
+              "Valor": "Void"
+            },
+            {
+              "Categoria": "Identity Data",
+              "Propiedad": "Family",
+              "Valor": "Annotation"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "Arquitectura",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Nombre" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Materials and Finishes" ],
+              "Propiedades": [ "Material" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Nivel" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Categoría",
+              "Valor": "Furniture"
+            },
+            {
+              "Categoria": "Elemento",
+              "Propiedad": "Categoría",
+              "Valor": "Plumbing Fixtures"
+            }
+          ]
+        },
+        {
+          "NombreConfiguracion": "Clash Detection",
+          "GruposDePropiedades": [
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Nombre" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Elemento" ],
+              "Propiedades": [ "Categoría" ]
+            },
+            {
+              "CategoriasPrioridad": [ "MEP System" ],
+              "Propiedades": [ "System Type" ]
+            },
+            {
+              "CategoriasPrioridad": [ "Constraints" ],
+              "Propiedades": [ "Base Level" ]
+            }
+          ],
+          "ExclusionesGlobales": [
+            {
+              "Categoria": "MEP System",
+              "Propiedad": "System Type",
+              "Valor": "None"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
