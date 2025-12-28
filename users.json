@@ -1,7 +1,6 @@
 {
-  "allowedUsers": [
-    "otro@gmail.com",
-    "nicolascalcagno@atbim.es",
-    "admin@midominio.com"
+  "users": [
+    { "email": "nicolascalcagno@atbim.es", "role": "Admin" },
+    { "email": "calcagno.nico@gmail.com", "role": "User" }
   ]
 }
