@@ -1,6 +1,6 @@
 {
   "users": [
-    { "email": "nicolascalcagno@atbim.es", "role": "Admin" },
-    { "email": "calcagno.nico@gmail.com", "role": "User" }
+    { "email": "nicolascalcagno@atbim.es", "role": "User" },
+    { "email": "calcagno.nico@gmail.com", "role": "Admin" }
   ]
 }
